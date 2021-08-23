@@ -252,7 +252,12 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
   },
   itemClicked: {
-    flex: 1,
+    // flex: 1,
+    width: '100%',
+    aspectRatio: 4 / 3,
+    borderTopLeftRadius: 10,
+    borderTopRightRadius: 10,
+    resizeMode: 'cover',
   },
   itemImage: {
     height: 250,
@@ -270,7 +275,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     resizeMode: 'cover',
-    backgroundColor: 'rgba(52, 52, 52, 0.8)',
+    backgroundColor: '#4863A0',
     padding: 8,
     borderBottomLeftRadius: 10,
     borderBottomRightRadius: 10,
@@ -301,7 +306,7 @@ const styles = StyleSheet.create({
   sectionHeader: {
     fontWeight: '800',
     fontSize: 24,
-    color: '#555',
+    color: '#4863A0',
     marginTop: 20,
     marginBottom: 16,
   },
